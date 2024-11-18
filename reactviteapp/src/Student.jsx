@@ -11,7 +11,7 @@ export default function Student(props) {
         <tbody>
         <tr><td colSpan={2}>{props.College}</td></tr>
         <tr><th>props.Roll_no</th><th>name</th><th>branch</th></tr>
-        <tr><td>{props}</td><td>aayush</td><td>cse</td></tr>
+        <tr><td>{props}</td><td>Aryan</td><td>cse</td></tr>
         </tbody>
           
       </table>
