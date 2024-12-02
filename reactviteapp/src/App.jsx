@@ -1,19 +1,16 @@
 import React from 'react'
 import Student from './student'
-
+import Imagemanipulation from './imagemanipulation'
 function App() {
-  let a=12
-  const mystyle={
-    backgroundColor:"red"
-  }
+  // let a=12
+  // const mystyle={
+  //   backgroundColor:"red"
+  
   return (
-    <div style={mystyle}>ABES engineering college
-    <div style={mystyle}>ABES engineering college</div>
-    <div style={mystyle}>
-      <Student/>
+   
+    <div>
+      <Imagemanipulation/>
     </div>
-    </div>
-    
   )
 }
 export default App
